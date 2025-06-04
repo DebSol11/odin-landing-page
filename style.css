@@ -1,0 +1,170 @@
+*,
+*::before,
+*::after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /* The next line of code is very usefull in the development phase of the overall layout. */
+    /* border: 1px solid red;  */
+}
+
+header {
+    display:flex;
+    justify-content: space-between;
+    background-color: #1F2937;
+    padding: 10px;
+}
+
+.logo {
+    font-size: 30px;
+    font-weight: 800px;
+    font-family: 'Roboto', Courier, monospace;
+    color: #F9FAF8
+}
+
+nav {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+    color: #F9FAF8;
+}
+
+section {
+    padding: 80px 10px;
+}
+
+.hero-section {
+    display: flex;
+    background-color: #1F2937;
+    align-items: center;
+}
+
+.hero-section-left {
+    flex: 1;
+    padding-right: 50px;
+}
+
+.hero-section-left p{
+    color: #F9FAF8;
+}
+
+.hero-section-right {
+    flex: 1;
+    text-align: center;
+    background-color: grey;
+    min-height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #F9FAF8;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: 1000;
+    color: #F9FAF8;
+}
+
+button.sign-up {
+    background-color: #3882F6;
+    padding: 10px;
+    color: #F9FAF8;
+    border-radius: 12px;
+    /* The following line of code removes the default border style */
+    border-style: solid;
+    width: 100px;
+    margin-top: 10px;
+}
+
+.placeholder-image {
+    width: 130px;
+    height: 130px;
+    border: 3px solid #3882F6;
+    border-radius: 12px;
+}
+
+.information-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    padding: 50px 10px;
+}
+
+.information-container {
+    display: flex;
+    gap: 40px;
+    margin-top: 40px;
+}
+
+.inner-container p {
+    max-width: 130px;
+    text-align: center;
+    margin-top: 5px;
+}
+
+h2 {
+    font-weight: 900;
+    font-size: 36px;
+    color: #1F2937
+}
+
+.quote-section {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    background-color: #E5E7EB;
+}
+
+p i {
+    font-size: 25px;
+    display: inline-block;
+    margin-left: 170px;
+    margin-right: 170px;
+}
+
+.author {
+    /* display: inline-block; */
+    text-align: right;
+    margin-right: 170px;
+    margin-top: 10px;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.action-container {
+    display: flex;
+    gap: 100px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 100px;
+    margin-right: 100px;
+    background-color: #3882F6;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+h3 {
+    color: #F9FAF8;
+}
+
+.action-left-side p {
+    color: #F9FAF8;
+}
+
+.action-call-section button {
+    border: 2px solid white;
+}
+
+footer {
+    background-color: #1F2937;
+    padding: 20px;
+}
+
+footer p {
+    color: #F9FAF8;
+    text-align: center;
+}
