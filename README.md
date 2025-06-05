@@ -4,7 +4,7 @@ Project: Landing Page from The Odin Project
 
 https://www.theodinproject.com/lessons/foundations-landing-page
 
-In short, the task is to recreate the website shown in the picture.
+In short, the task is to recreate the website shown in the picture with the fonts and styles suggested.
 
 <p float="left">
   <img alt="landing page image from Odin" src="images/01.png" width="500" />
