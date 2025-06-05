@@ -7,7 +7,8 @@ https://www.theodinproject.com/lessons/foundations-landing-page
 In short, the task is to recreate the website shown in the picture.
 
 <img src="images/01.png" alt="landing page image from Odin" width="500"/>
-![fonts and colors](images/02.png)
+
+![fonts and colors](images/01.png)
 
 To explain the commit history the project was done by me a few months ago and uploaded under a different GitHub account.
 
