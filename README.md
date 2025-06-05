@@ -8,7 +8,7 @@ In short, the task is to recreate the website shown in the picture.
 
 <img src="images/01.png" alt="landing page image from Odin" width="500"/>
 
-<img src="images/02.png" alt="fonts and colors from Odin" width="500"/>
+<img src="images/02.png" alt="fonts and colors from Odin" width="500" display="inline-block"/>
 
 To explain the commit history the project was done by me a few months ago and uploaded under a different GitHub account.
 
