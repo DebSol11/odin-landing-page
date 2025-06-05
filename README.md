@@ -8,6 +8,7 @@ In short, the task is to recreate the website shown in the picture with the font
 
 <p float="left">
   <img alt="landing page image from Odin" src="images/01.png" width="500" />
+  &nbsp; &nbsp; &nbsp; &nbsp;
   <img alt="fonts and colors from Odin" src="images/02.png" width="500" /> 
 </p>
 
