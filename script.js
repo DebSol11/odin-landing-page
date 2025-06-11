@@ -6,4 +6,4 @@ for (var i = 0, l = 4; l > i; i++) {
             </div>`;
 }
 
-document.getElementsByClassName('information-container')[0].innerHTML = html;
+document.getElementsByClassName('information-container').innerText = html;
