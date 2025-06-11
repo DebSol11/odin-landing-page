@@ -4,8 +4,8 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    /* The next line of code is very usefull in the development phase of the overall layout. */
-    /* border: 1px solid red;  */
+    /* The next line of code is very useful in the development phase of the overall layout. */
+    border: 1px solid red;
 }
 
 header {
