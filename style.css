@@ -40,7 +40,6 @@ section {
 .hero-section {
     display: flex;
     background-color: #1F2937;
-    align-items: center;
 }
 
 .hero-section-left {
@@ -115,7 +114,6 @@ h2 {
 .quote-section {
     display: flex;
     flex-direction: column;
-    margin: auto;
     background-color: #E5E7EB;
 }
 
@@ -127,7 +125,6 @@ p i {
 }
 
 .author {
-    /* display: inline-block; */
     text-align: right;
     margin-right: 170px;
     margin-top: 10px;
