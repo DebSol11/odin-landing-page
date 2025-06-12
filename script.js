@@ -1,29 +1,31 @@
-const dummyText = ['this is some subtext under an illustration or image','this is some subtext under an illustration or image','this is some subtext under an illustration or image','this is some subtext under an illustration or image'];
+// Solution with future security concerns
+// ----------
+var html = "";
+for (var i = 0, l = 4; l > i; i++) {
+    html += `<div class="inner-container">
+                <div class="placeholder-image"></div>
+                <p>this is some subtext under an illustration or image</p>
+            </div>`;
+}
 
-dummyText.forEach(item => {
-    const newDivContainer = document.createElement('div');
-    newDivContainer.classList.add("inner-container");
-    const newImageDiv = document.createElement('div');
-    newImageDiv.classList.add("placeholder-image");
-    const newDummyText = document.createElement('p');
+document.getElementsByClassName('information-container')[0].innerHTML = html;
 
-    const selectElement = document.getElementsByClassName('information-container');
+// Solution with less security concerns (use innerText or textContent instead of innerHTML)
+// ----------
+// const dummyText = "this is some subtext under an illustration or image";
 
-    selectElement.appendChild(newDivContainer);
-    newDivContainer.appendChild(newImageDiv);
-    newDivContainer.appendChild(newDummyText);
+// dummyText.forEach((item) => {
+//   const newDivContainer = document.createElement("div");
+//   newDivContainer.classList.add("inner-container");
+//   const newImageDiv = document.createElement("div");
+//   newImageDiv.classList.add("placeholder-image");
+//   var newDummyText = document.createElement("p");
+//   newDummyText.textContent = item;
+//   const selectElement = document.getElementsByClassName(
+//     "information-container"
+//   );
 
-    newDummyText.innerText = item;
-});
-
-// Solution with future security concerns 
-// -----------------------------
-// var html = "";
-// for (var i = 0, l = 4; l > i; i++) {
-//     html += `<div class="inner-container">
-//                 <div class="placeholder-image"></div>
-//                 <p>this is some subtext under an illustration or image</p>
-//             </div>`;
-// }
-
-// document.getElementsByClassName('information-container')[0].innerHTML = html;
+//   selectElement.appendChild(newDivContainer);
+//   newDivContainer.appendChild(newImageDiv);
+//   newDivContainer.appendChild(newDummyText);
+// });
